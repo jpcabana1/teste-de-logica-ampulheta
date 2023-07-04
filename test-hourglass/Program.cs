@@ -3,7 +3,7 @@ var rowQuantity = int.Parse(Console.ReadLine()!);
 
 while(rowQuantity < 20)
 {
-    Console.WriteLine("Input inválido");
+    Console.WriteLine("Invalid Input!");
     Console.Write("Type row quantity: ");
     rowQuantity = int.Parse(Console.ReadLine()!);
 }
